@@ -1,4 +1,6 @@
 # eslint-config-reducer
+[![npm version](https://badge.fury.io/js/eslint-config-reducer.svg)](https://www.npmjs.com/package/eslint-config-reducer)
+[![npm](https://img.shields.io/npm/dt/eslint-config-reducer.svg)](https://www.npmjs.com/package/eslint-config-reducer)
 
 ESLint config with **Prettier** for Vanilla Javascript and ReactJS
 
