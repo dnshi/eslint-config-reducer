@@ -6,7 +6,12 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'prettier/prettier': [
       'error',
-      { singleQuote: true, semi: false, trailingComma: 'es5' },
+      {
+        singleQuote: true,
+        semi: false,
+        trailingComma: 'es5',
+        arrowParens: 'always',
+      },
     ],
   },
 }
