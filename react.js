@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./index.js', 'airbnb', 'prettier/react'],
+  extends: ['airbnb', './index.js', 'prettier/react'],
 }
