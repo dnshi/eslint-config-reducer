@@ -1,6 +1,9 @@
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier'],
+  env: {
+    node: true,
+  },
   rules: {
     semi: 0,
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
