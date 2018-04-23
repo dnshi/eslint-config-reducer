@@ -7,6 +7,7 @@ module.exports = {
   rules: {
     semi: 0,
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-use-before-define': ['error', 'nofunc'],
     'prettier/prettier': [
       'error',
       {
