@@ -10,7 +10,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/react',
   ],
-  rule: {
+  rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
   },
 }
