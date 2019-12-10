@@ -1,13 +1,9 @@
 const base = require('./index.js')
 
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier'],
+  ...base,
+  extends: ['airbnb', 'plugin:prettier/recommended', 'prettier/react'],
   env: {
     browser: true,
   },
-  rules: Object.assign({}, base.rules, {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/prefer-stateless-function': 0,
-  }),
 }
