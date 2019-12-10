@@ -26,9 +26,8 @@
     "typescript": "^3.7.3"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.3"
+    "eslint": "6.x.x",
+    "prettier": "1.x.x"
   },
   "repository": {
     "type": "git",

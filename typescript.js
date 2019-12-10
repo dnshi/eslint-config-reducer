@@ -11,6 +11,6 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.jsx'] }],
   },
 }
