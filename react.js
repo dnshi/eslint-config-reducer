@@ -1,7 +1,13 @@
+const index = require('./index')
+
 module.exports = {
-  extends: ['./index', 'airbnb', 'airbnb/hooks', 'prettier/react'].map(
-    require.resolve,
-  ),
+  ...index,
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
   env: {
     browser: true,
   },

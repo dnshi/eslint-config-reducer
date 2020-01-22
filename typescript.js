@@ -1,11 +1,18 @@
+const react = require('./react')
+
 module.exports = {
   extends: [
-    './react',
+    ...react.extends,
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'prettier/@typescript-eslint',
-  ].map(require.resolve),
+  ],
+  env: {
+    node: true,
+    browser: true,
+  },
   rules: {
+    ...react.rules,
     'react/jsx-filename-extension': [
       'error',
       {
