@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-reducer",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "ESLint config with Prettier",
   "main": "index.js",
   "scripts": {
@@ -9,25 +9,25 @@
   "author": "Dean Shi <dean.xiaoshi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "@typescript-eslint/parser": "^2.11.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.19.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.3"
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "eslint": "6.x.x",
-    "prettier": "1.x.x"
+    "prettier": "2.x.x"
   },
   "repository": {
     "type": "git",
